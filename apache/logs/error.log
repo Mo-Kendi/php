@@ -1,0 +1,44 @@
+[Fri Mar 24 09:32:41.630997 2023] [ssl:warn] [pid 6328:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 24 09:32:41.673000 2023] [ssl:warn] [pid 6328:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 24 09:32:41.718484 2023] [mpm_winnt:notice] [pid 6328:tid 436] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 configured -- resuming normal operations
+[Fri Mar 24 09:32:41.718484 2023] [mpm_winnt:notice] [pid 6328:tid 436] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Mar 24 09:32:41.718484 2023] [core:notice] [pid 6328:tid 436] AH00094: Command line: 'c:\\software-developer\\php\\apache\\bin\\httpd.exe -d C:/software-developer/php/apache'
+[Fri Mar 24 09:32:41.723488 2023] [mpm_winnt:notice] [pid 6328:tid 436] AH00418: Parent: Created child process 27288
+[Fri Mar 24 09:32:42.054491 2023] [ssl:warn] [pid 27288:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 24 09:32:42.091490 2023] [ssl:warn] [pid 27288:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 24 09:32:42.119490 2023] [mpm_winnt:notice] [pid 27288:tid 440] AH00354: Child: Starting 150 worker threads.
+[Fri Mar 24 09:55:33.451999 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51347] script 'C:/software-developer/php/htdocs/demo2.php' not found or unable to stat
+[Fri Mar 24 10:03:17.544526 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51395] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\software-developer\\php\\htdocs\\demo.php on line 10
+[Fri Mar 24 10:14:18.363792 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51518] PHP Parse error:  syntax error, unexpected token "echo" in C:\\software-developer\\php\\htdocs\\demo.php on line 6
+[Fri Mar 24 10:14:27.147388 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51520] PHP Parse error:  syntax error, unexpected token "echo" in C:\\software-developer\\php\\htdocs\\demo.php on line 7
+[Fri Mar 24 10:15:02.422931 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51532] PHP Parse error:  syntax error, unexpected token "echo" in C:\\software-developer\\php\\htdocs\\demo.php on line 7
+[Fri Mar 24 10:15:12.179187 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51533] PHP Parse error:  syntax error, unexpected token "echo" in C:\\software-developer\\php\\htdocs\\demo.php on line 7
+[Fri Mar 24 10:19:44.186409 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51579] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\software-developer\\php\\htdocs\\demo.php on line 7
+[Fri Mar 24 10:19:45.364580 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51580] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\software-developer\\php\\htdocs\\demo.php on line 7
+[Fri Mar 24 10:19:53.045113 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51582] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\software-developer\\php\\htdocs\\demo.php on line 7
+[Fri Mar 24 10:19:55.282430 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51582] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\software-developer\\php\\htdocs\\demo.php on line 7
+[Fri Mar 24 10:20:05.045090 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51583] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\software-developer\\php\\htdocs\\demo.php on line 7
+[Fri Mar 24 10:23:15.112027 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51657] PHP Parse error:  syntax error, unexpected token "<" in C:\\software-developer\\php\\htdocs\\demo.php on line 3
+[Fri Mar 24 10:23:23.151181 2023] [php:error] [pid 27288:tid 1888] [client 127.0.0.1:51659] PHP Parse error:  syntax error, unexpected token "<" in C:\\software-developer\\php\\htdocs\\demo.php on line 3
+[Tue Mar 28 13:00:31.760826 2023] [ssl:warn] [pid 11316:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 13:00:31.828999 2023] [core:warn] [pid 11316:tid 416] AH00098: pid file C:/software-developer/php/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 28 13:00:31.832939 2023] [ssl:warn] [pid 11316:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 13:00:32.173672 2023] [mpm_winnt:notice] [pid 11316:tid 416] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 configured -- resuming normal operations
+[Tue Mar 28 13:00:32.173672 2023] [mpm_winnt:notice] [pid 11316:tid 416] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Mar 28 13:00:32.173672 2023] [core:notice] [pid 11316:tid 416] AH00094: Command line: 'c:\\software-developer\\php\\apache\\bin\\httpd.exe -d C:/software-developer/php/apache'
+[Tue Mar 28 13:00:32.177499 2023] [mpm_winnt:notice] [pid 11316:tid 416] AH00418: Parent: Created child process 9056
+[Tue Mar 28 13:00:32.546856 2023] [ssl:warn] [pid 9056:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 13:00:32.601478 2023] [ssl:warn] [pid 9056:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 13:00:32.641047 2023] [mpm_winnt:notice] [pid 9056:tid 424] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 28 14:00:27.208426 2023] [php:error] [pid 9056:tid 1852] [client 127.0.0.1:51463] PHP Parse error:  syntax error, unexpected token "echo" in C:\\software-developer\\php\\htdocs\\persons.php on line 10
+[Tue Mar 28 14:00:37.354528 2023] [php:error] [pid 9056:tid 1852] [client 127.0.0.1:51464] PHP Parse error:  syntax error, unexpected token "echo" in C:\\software-developer\\php\\htdocs\\persons.php on line 10
+[Tue Apr 11 13:18:38.063821 2023] [ssl:warn] [pid 21288:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 11 13:18:38.086482 2023] [core:warn] [pid 21288:tid 408] AH00098: pid file C:/software-developer/php/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 11 13:18:38.088475 2023] [ssl:warn] [pid 21288:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 11 13:18:38.274434 2023] [mpm_winnt:notice] [pid 21288:tid 408] AH00455: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 configured -- resuming normal operations
+[Tue Apr 11 13:18:38.274434 2023] [mpm_winnt:notice] [pid 21288:tid 408] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Apr 11 13:18:38.274434 2023] [core:notice] [pid 21288:tid 408] AH00094: Command line: 'c:\\software-developer\\php\\apache\\bin\\httpd.exe -d C:/software-developer/php/apache'
+[Tue Apr 11 13:18:38.277424 2023] [mpm_winnt:notice] [pid 21288:tid 408] AH00418: Parent: Created child process 20416
+[Tue Apr 11 13:18:38.492969 2023] [ssl:warn] [pid 20416:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 11 13:18:38.514898 2023] [ssl:warn] [pid 20416:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 11 13:18:38.540808 2023] [mpm_winnt:notice] [pid 20416:tid 412] AH00354: Child: Starting 150 worker threads.
