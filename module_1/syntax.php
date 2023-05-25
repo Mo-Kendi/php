@@ -1,24 +1,16 @@
 <?php
-function lijst_optellen($numbers) {
-
-$sum = 0;
-
-foreach ($numbers as $number) {
-    if ($number % 2 == 0) {
-        $sum += $number;
+function langste_woord($woordenLijst) {
+    $langsteWoord = '';
+    
+    foreach ($woordenLijst as $woord) {
+        if (strlen($woord) > strlen($langsteWoord)) {
+            $langsteWoord = $woord;
+        }
     }
-// % dit geeft de rest aan als $getal gedeelt door 2 is
-
+    
+    return $langsteWoord;
 }
 
-return $sum;
-
-}
-
-
-
-$getallenLijst = [1, 2, 3, 4,];
-
-$result = lijst_optellen($getallenLijst);
-
-echo $result; // Output: 6
+$woordenLijst = ['kat', 'hond', 'olifant'];
+$resultaat = langste_woord($woordenLijst);
+echo $resultaat; // Output: 'olifant'
