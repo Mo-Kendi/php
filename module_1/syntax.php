@@ -1,16 +1,20 @@
 <?php
-function langste_woord($woordenLijst) {
-    $langsteWoord = '';
+function sorteer_getallen($getallenLijst) {
+    $aantalGetallen = count($getallenLijst);
     
-    foreach ($woordenLijst as $woord) {
-        if (strlen($woord) > strlen($langsteWoord)) {
-            $langsteWoord = $woord;
+    for ($i = 0; $i < $aantalGetallen - 1; $i++) {
+        for ($j = 0; $j < $aantalGetallen - $i - 1; $j++) {
+            if ($getallenLijst[$j] > $getallenLijst[$j + 1]) {
+                // Wissel de posities van de getallen
+                $tijdelijk = $getallenLijst[$j];
+                $getallenLijst[$j] = $getallenLijst[$j + 1];
+                $getallenLijst[$j + 1] = $tijdelijk;
+            }
         }
     }
     
-    return $langsteWoord;
+    return $getallenLijst;
 }
-
-$woordenLijst = ['kat', 'hond', 'olifant'];
-$resultaat = langste_woord($woordenLijst);
-echo $resultaat; // Output: 'olifant'
+$getallenLijst = [3, 1, 4, 2];
+$resultaat = sorteer_getallen($getallenLijst);
+echo implode(', ', $resultaat); // Output: '1, 2, 3, 4'
